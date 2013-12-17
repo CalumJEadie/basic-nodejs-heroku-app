@@ -1,0 +1,30 @@
+{
+  "name": "basic-nodejs-heroku-app",
+  "version": "0.0.0",
+  "description": "A really basic Node.js app to experiment with Node.js and Heroku.",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CalumJEadie/basic-nodejs-heroku-app.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "CalumJEadie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CalumJEadie/basic-nodejs-heroku-app/issues"
+  },
+  "homepage": "https://github.com/CalumJEadie/basic-nodejs-heroku-app",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.7"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
